@@ -25,7 +25,7 @@
 .main-container {
     display: flex;
     flex-direction: column;
-    height: 120vh; /*ÄNDRA*/
+    height: 100vh; /*ÄNDRA*/
 }
 
 
@@ -67,4 +67,19 @@ nav {
     background-color: var(--pink);
     margin: 3px;
     border-radius: 10px;
+}
+
+/*PORTRAIT*/
+.portrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    margin-top: 80px;
+    border: 2px solid blue;
+}
+.porimg {
+    width: 70%;
+    padding: 20px;
 }
