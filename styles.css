@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+    --gray: rgba(180,180,182,0.950);
+    --pink: rgb(232, 109, 145);
+}
+
+.bgimg{
+    height: 100%;
+    width: 100%;
+    background-image: url("images/bgimg.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 120vh; /*ÄNDRA*/
+}
+
+
+/*NAV*/
+nav {
+    height: 10vh;
+    border: 2px solid red;
+    background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.logotype {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    border-radius: 50%;
+    width: 35%;
+    object-fit: cover;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.icon {
+    width: 45px;
+    height: 5px;
+    background-color: var(--pink);
+    margin: 3px;
+    border-radius: 10px;
+}
