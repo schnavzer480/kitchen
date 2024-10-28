@@ -31,7 +31,7 @@
 
 /*NAV*/
 nav {
-    height: 10vh;
+    height: 13vh;
     border: 2px solid red;
     background-color: var(--gray);
     display: flex;
@@ -49,7 +49,7 @@ nav {
 }
 .logo {
     border-radius: 50%;
-    width: 35%;
+    width: 45%;
     object-fit: cover;
 }
 
@@ -72,14 +72,23 @@ nav {
 /*PORTRAIT*/
 .portrait {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
 
-    margin-top: 80px;
+    margin-top: 110px;
     border: 2px solid blue;
+}
+.portrait figcaption {
+    font-size: 2rem;
+    background-color: var(--gray);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 20%;
 }
 .porimg {
     width: 70%;
     padding: 20px;
+    border-radius: 20%;
 }
