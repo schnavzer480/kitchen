@@ -9,7 +9,7 @@
 
 :root {
     font-size: 62.5%;
-    --gray: rgba(180,180,182,0.950);
+    --gray: rgba(150, 150, 150, 0.95);
     --pink: rgb(232, 109, 145);
     --white: rgb(245, 245, 245);
     --black: rgb(26, 26, 26);
