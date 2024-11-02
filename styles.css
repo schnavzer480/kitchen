@@ -42,13 +42,13 @@ nav {
 }
 
 .logotype {
+    flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .logo {
     border-radius: 50%;
-    width: 65%;
+    width: 40%;
     object-fit: cover;
 }
 
