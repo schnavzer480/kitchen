@@ -11,6 +11,7 @@
     font-size: 62.5%;
     --gray: rgba(180,180,182,0.950);
     --pink: rgb(232, 109, 145);
+    --white: rgb(245, 245, 245);
 }
 
 .bgimg{
@@ -38,7 +39,7 @@ nav {
     align-items: center;
     position: fixed;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .logotype {
@@ -52,21 +53,6 @@ nav {
     object-fit: cover;
 }
 
-.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    right: 20px;
-    cursor: pointer;
-}
-.icon {
-    width: 45px;
-    height: 5px;
-    background-color: var(--pink);
-    margin: 3px;
-    border-radius: 10px;
-}
 
 /*PORTRAIT*/
 .portrait {
@@ -74,20 +60,18 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
-
-    margin-top: 150px;
+    margin-top: 145px;
 }
 .portrait figcaption {
     font-size: 2rem;
     background-color: var(--pink);
-    color: aliceblue;
+    color: var(--white);
     padding: 10px;
     border-radius: 30%;
 }
 .porimg {
     width: 80%;
-    padding: 20px;
+    padding: 5px;
     border-radius: 20%;
 }
 
@@ -97,5 +81,5 @@ nav {
     margin: 25px;
     border-radius: 10%;
     background-color: var(--pink);
-    color: aliceblue;
+    color: var(--white);
 }
