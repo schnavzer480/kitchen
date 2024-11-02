@@ -1,7 +1,7 @@
 .dropdown {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    /*margin-left: auto;*//*KAN NOG TAS BORT*/
 }
 
 .menu {
@@ -22,49 +22,45 @@
 
 .dropdown-menu {
     display: none;
-    position: fixed; /* Fixed positioning to cover the entire screen */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     background-color: var(--gray);
-    box-shadow: none; /* Remove box shadow */
     z-index: 1000;
-    padding-top: 50px; /* Space at the top for the close icon */
+    padding-top: 60px;
 }
-
 
 .dropdown-menu.show {
     display: block;
 }
 
-
-.dropdown-items {
+/*.dropdown-items {
     list-style: none;
     padding: 0;
     margin: 0;
-}
+}*/
 
 .dropdown-items li {
     padding: 10px 20px;
     font-size: 1.6rem;
-    color: #333; /* Text color */
+    color: var(--black);
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .dropdown-items li:hover {
-    background-color: var(--pink); /* Highlight on hover */
-    color: #fff; /* Text color on hover */
+    background-color: var(--pink);
+    color: var(--white);
 }
 
-/* Show dropdown on menu click */
 .menu.active + .dropwdown-menu {
     display: block;
 }
 
 .close-icon {
-    font-size: 2rem;
+    font-size: 4rem;
     color: var(--pink);
     position: absolute;
     top: 10px;
@@ -74,5 +70,5 @@
 }
 
 .close-icon:hover {
-    color: #333; /* Change color on hover */
+    color: var(--black);
 }

@@ -12,6 +12,7 @@
     --gray: rgba(180,180,182,0.950);
     --pink: rgb(232, 109, 145);
     --white: rgb(245, 245, 245);
+    --black: rgb(26, 26, 26);
 }
 
 .bgimg{
@@ -60,7 +61,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 145px;
+    margin-top: 150px;
 }
 .portrait figcaption {
     font-size: 2rem;
