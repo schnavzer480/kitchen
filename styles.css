@@ -13,6 +13,7 @@
     --pink: rgb(232, 109, 145);
     --white: rgb(245, 245, 245);
     --black: rgb(26, 26, 26);
+    --green: rgba(58,140,12,255);
 }
 
 .bgimg{
@@ -34,7 +35,7 @@
 /*NAV*/
 nav {
     height: 18vh;
-    background-color: var(--gray);
+    background-color: var(--green);
     display: flex;
     justify-content: center;
     align-items: center;
