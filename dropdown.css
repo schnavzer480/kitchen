@@ -15,7 +15,7 @@
 .icon {
     width: 45px;
     height: 5px;
-    background-color: var(--pink);
+    background-color: var(--red);
     margin: 3px;
     border-radius: 10px;
 }
@@ -27,7 +27,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: var(--gray);
+    background-color: var(--green);
     z-index: 1000;
     padding-top: 60px;
 }
@@ -51,7 +51,7 @@
 }
 
 .dropdown-items li:hover {
-    background-color: var(--pink);
+    background-color: var(--red);
     color: var(--white);
 }
 
@@ -61,7 +61,7 @@
 
 .close-icon {
     font-size: 4rem;
-    color: var(--pink);
+    color: var(--red);
     position: absolute;
     top: 10px;
     right: 15px;
